@@ -13,6 +13,13 @@
 		$footer = $('#footer'),
 		$main = $('#main'),
 		$main_articles = $main.children('article');
+	// 	$project_media = $('.media img');
+
+	// // Projects GIFs
+	// 	$project_media.on('hover', function() {
+	// 		$('.preset').toggle();
+	// 		$('.gif').toggle();
+	// 	})
 
 	// Breakpoints.
 		breakpoints({
