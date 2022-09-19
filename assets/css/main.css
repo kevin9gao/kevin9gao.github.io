@@ -896,13 +896,27 @@ input, select, textarea {
 /* Icons */
 
 	.skill-logos {
-		width: 100px;
-		height: 100px;
+		width: 80%;
+		height: 80%;
 		margin: 1em;
 	}
 
+	.skill-wrappers {
+		width: 20%;
+		height: 8em;
+		padding: 1em;
+	}
+
+	.skill-logo-wrappers {
+		width: 100%;
+		height: 80%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
 	#sqlalchemy-logo {
-		height: 60px;
+		height: 50%;
 		margin: 0;
 	}
 
@@ -919,7 +933,8 @@ input, select, textarea {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		width: 20%;
+		width: 100%;
+		height: 100%;
 	}
 
 	#skill-list {
@@ -933,6 +948,17 @@ input, select, textarea {
 
 	.skill-names {
 		line-height: 25px;
+		word-wrap: break-word;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	@media screen and (max-width: 500px) {
+		.skill-wrappers {
+			width: 50%;
+			height: 10em;
+		}
 	}
 
 	#location,
