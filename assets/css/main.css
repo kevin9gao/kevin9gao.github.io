@@ -1777,3 +1777,35 @@ input, select, textarea {
 	justify-content: center;
 	align-items: center;
 }
+
+
+.project-wrapper {
+	width: 100%;
+}
+
+.media {
+	width: 100%;
+}
+
+.project-pics {
+	max-width: 100%;
+	height: fit-content;
+}
+
+.media a {
+	border-bottom: none;
+}
+
+.media {
+	margin: 1em 0;
+}
+
+.descriptions .icons {
+	display: flex;
+	justify-content: center;
+}
+
+.project-links {
+	display: flex;
+	justify-content: space-between;
+}
