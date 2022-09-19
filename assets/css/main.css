@@ -957,7 +957,7 @@ input, select, textarea {
 	@media screen and (max-width: 500px) {
 		.skill-wrappers {
 			width: 50%;
-			height: 10em;
+			height: fit-content;
 		}
 	}
 
