@@ -11,6 +11,7 @@ function test_input($data) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+  echo 'got to php body';
   $email_to = 'kevingao52997@gmail.com';
   $email_subject = 'New kevingao.live Contact Message';
 
