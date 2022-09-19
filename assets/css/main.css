@@ -1748,3 +1748,32 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+/* Additional */
+
+#about div img {
+	width: 90%;
+	height: fit-content;
+	margin: 1em;
+	border-radius: 4px;
+}
+
+#pets-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.pet-img-wrapper {
+	width: 50%;
+}
+
+#dindin-section,
+#ahri-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
