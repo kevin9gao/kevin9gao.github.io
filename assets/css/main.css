@@ -1809,3 +1809,19 @@ input, select, textarea {
 	display: flex;
 	justify-content: space-between;
 }
+
+/* Contact */
+
+.contact-pics {
+	width: 100%;
+	margin-bottom: .7em;
+}
+
+.contact-links .icons a {
+	margin: .3em;
+}
+
+.contact-headers {
+	display: flex;
+	justify-content: space-between;
+}
