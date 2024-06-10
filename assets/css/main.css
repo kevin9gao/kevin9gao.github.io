@@ -1825,3 +1825,11 @@ input, select, textarea {
 	display: flex;
 	justify-content: space-between;
 }
+
+/* Mobile */
+
+@media screen and (max-width: 1220px) {
+	.media img {
+		max-height: 25vh;
+	}
+}
